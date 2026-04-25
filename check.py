@@ -76,7 +76,7 @@ def main():
         urls = args.targets
 
     if not urls:
-        print("❌ kasih URL atau file dulu")
+        print("❌ using URL or file")
         return
 
     while True:
@@ -87,7 +87,7 @@ def main():
         if not args.time:
             break
 
-        print(f"\n⏳ nunggu {args.time} detik...\n")
+        print(f"\n⏳ wait {args.time} second...\n")
         time.sleep(args.time)
 
 if __name__ == "__main__":
