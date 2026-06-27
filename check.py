@@ -63,8 +63,8 @@ def load_urls(file):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("targets", nargs="*", help="URL list")
-    parser.add_argument("-f", "--file", help="file berisi list URL")
-    parser.add_argument("-t", "--time", type=int, help="loop tiap X detik")
+    parser.add_argument("-f", "--file", help="file list URL")
+    parser.add_argument("-t", "--time", type=int, help="loop after X second")
 
     args = parser.parse_args()
 
